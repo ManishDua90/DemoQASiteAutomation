@@ -1,0 +1,20 @@
+!contents -R2 -g -p -f -h
+!define TEST_SYSTEM {slim}
+
+
+
+!path target\classes
+!path target\classes\**.jar
+!path target\maven-status
+!path lib\selenium-java-3.11.0\**.jar
+
+
+|import|
+|common|
+
+
+
+|common.Initialize|
+|openDemoURL      |
+|dummy            |
+
