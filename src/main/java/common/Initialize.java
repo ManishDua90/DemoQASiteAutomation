@@ -13,7 +13,7 @@ import java.util.Properties;
 public class Initialize {
     private static Properties elementProperties ;
     private static Properties webDriverProperties ;
-    public static WebDriver webDriver;
+    private static WebDriver webDriver;
     final static Logger logger = Logger.getLogger(Initialize.class);
 
     public Initialize()
@@ -64,10 +64,10 @@ public class Initialize {
     }
 
 
-   /* public static WebDriver getWebDriver()
+    public static WebDriver getWebDriver()
     {
         return webDriver;
-    }*/
+    }
 
    public void setOpenDemoURL(String dummy)
     {

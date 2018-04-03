@@ -1,6 +1,7 @@
 package common;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,13 +11,15 @@ import java.util.Map;
 import java.util.Properties;
 
 public class ElementOperations extends Initialize {
-   // private WebDriver webDriver;
-    private Properties elementProperties;
-    WebDriverWait wait = new WebDriverWait(webDriver, 10);
 
+    private WebDriver webDriver;
+    private Properties elementProperties;
+    private WebDriverWait wait;
     public ElementOperations() {
-     //   webDriver = Initialize.getWebDriver();
+        webDriver = Initialize.getWebDriver();
+        wait = new WebDriverWait(webDriver, 10);
         elementProperties = Initialize.getElementProperties();
+
     }
     public void clickOnTheGivenElement(String name){
 

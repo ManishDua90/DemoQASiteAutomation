@@ -6,6 +6,7 @@ import common.Initialize;
 import helperservices.FillRegistrationFormHelperService;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pageobjects.RegistrationFormPageObject;
@@ -18,10 +19,12 @@ OpenRegistrationForm extends Initialize {
    // private WebDriver webDriver;
     private Properties elementProperties;
     final static Logger logger = Logger.getLogger(OpenRegistrationForm.class);
+    private WebDriver webDriver;
 
     ElementOperations elementOperations = new ElementOperations();
         public OpenRegistrationForm()
         {
+            webDriver = Initialize.getWebDriver();
             elementProperties = Initialize.getElementProperties();
         }
         public void setOpenForm(String dummy){
@@ -32,7 +35,7 @@ OpenRegistrationForm extends Initialize {
 
     public void setFillForm(Map<String,String> formData)
     {
-        FillRegistrationFormHelperService.fillForm(formData);
+        new FillRegistrationFormHelperService().fillForm(formData);
         logger.info("Filled Registration form");
     }
 
