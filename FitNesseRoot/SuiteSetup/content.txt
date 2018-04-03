@@ -6,7 +6,7 @@
 !path target\classes
 !path target\classes\**.jar
 !path target\maven-status
-!path lib\selenium-java-3.11.0\**.jar
+!path lib\**.jar
 
 
 |import|

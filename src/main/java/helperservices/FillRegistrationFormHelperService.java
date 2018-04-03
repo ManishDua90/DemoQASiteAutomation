@@ -1,14 +1,16 @@
 package helperservices;
 
 import common.Initialize;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.support.ui.Select;
 import pageobjects.RegistrationFormPageObject;
 
 import java.util.Map;
 
 public class FillRegistrationFormHelperService extends Initialize{
-
+    final static Logger logger = Logger.getLogger(FillRegistrationFormHelperService.class);
     public static void fillForm(Map<String, String> formData) {
+        logger.info("Filling Registration form");
         RegistrationFormPageObject.firstname(webDriver).sendKeys(formData.get("firstName"));
         RegistrationFormPageObject.lastName(webDriver).sendKeys(formData.get("lastName"));
 

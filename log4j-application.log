@@ -1,0 +1,31 @@
+2018-04-03 21:32:10 INFO  Initialize:48 - Started loading webdriver properties
+2018-04-03 21:32:10 INFO  Initialize:61 - Loaded webdriver properties
+2018-04-03 21:32:10 INFO  Initialize:32 - Started loading element properties
+2018-04-03 21:32:10 INFO  Initialize:43 - Loaded element properties
+2018-04-03 21:32:10 INFO  Initialize:75 - Found webdriver [chrome]. Launching chrome browser
+2018-04-03 21:32:13 INFO  Initialize:84 - Launching demoQA website
+2018-04-03 21:32:21 INFO  Initialize:48 - Started loading webdriver properties
+2018-04-03 21:32:21 INFO  Initialize:61 - Loaded webdriver properties
+2018-04-03 21:32:21 INFO  Initialize:32 - Started loading element properties
+2018-04-03 21:32:21 INFO  Initialize:43 - Loaded element properties
+2018-04-03 21:32:21 INFO  Initialize:48 - Started loading webdriver properties
+2018-04-03 21:32:21 INFO  Initialize:61 - Loaded webdriver properties
+2018-04-03 21:32:21 INFO  Initialize:32 - Started loading element properties
+2018-04-03 21:32:21 INFO  Initialize:43 - Loaded element properties
+2018-04-03 21:32:22 INFO  OpenRegistrationForm:30 - Opened Registration form
+2018-04-03 21:32:23 INFO  Initialize:48 - Started loading webdriver properties
+2018-04-03 21:32:23 INFO  Initialize:61 - Loaded webdriver properties
+2018-04-03 21:32:23 INFO  Initialize:32 - Started loading element properties
+2018-04-03 21:32:23 INFO  Initialize:43 - Loaded element properties
+2018-04-03 21:32:23 INFO  Initialize:48 - Started loading webdriver properties
+2018-04-03 21:32:23 INFO  Initialize:61 - Loaded webdriver properties
+2018-04-03 21:32:23 INFO  Initialize:32 - Started loading element properties
+2018-04-03 21:32:23 INFO  Initialize:43 - Loaded element properties
+2018-04-03 21:32:23 INFO  OpenRegistrationForm:30 - Opened Registration form
+2018-04-03 21:32:23 INFO  FillRegistrationFormHelperService:13 - Filling Registration form
+2018-04-03 21:32:27 INFO  OpenRegistrationForm:36 - Filled Registration form
+2018-04-03 21:32:28 INFO  Initialize:48 - Started loading webdriver properties
+2018-04-03 21:32:28 INFO  Initialize:61 - Loaded webdriver properties
+2018-04-03 21:32:28 INFO  Initialize:32 - Started loading element properties
+2018-04-03 21:32:28 INFO  Initialize:43 - Loaded element properties
+2018-04-03 21:32:28 INFO  Initialize:7 - Quitting webdriver

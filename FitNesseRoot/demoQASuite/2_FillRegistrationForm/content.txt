@@ -5,13 +5,13 @@
 !path target\classes\**.jar
 !path target\maven-archiver
 !path target\maven-status
-!path lib\selenium-java-3.11.0\**.jar
+!path lib\**.jar
 
 |import     |
 |common     |
 |fixtures   |
 |pageobjects|
 
-|fixtures.OpenRegistrationForm                                                                                                                                                                                                                                                                                              |
-|openForm|fillForm                                                                                                                                                                                                                                                                          |getRegistrationStatus?         |
-|        |!{firstName:Shubham,lastName:Sharma,maritalStatus:single,hobby:cricket:country:India,dob:7-8-1990,phoneNumber:9971990988,userName:!-Shubham9hsarma90-!,emailId:!-shubhamhkk90@gmail.com-!,profilePic:NA,aboutYourself:!-LoveCricket-!,password:test12345,confirmPassword:test12345}|Thank you for your registration|
+|fixtures.OpenRegistrationForm                                                                                                                                                                                                                                                                                           |
+|openForm|fillForm                                                                                                                                                                                                                                                                       |getRegistrationStatus?         |
+|        |!{firstName:Shubham,lastName:Sharma,maritalStatus:single,hobby:cricket:country:India,dob:7-8-1990,phoneNumber:9971512988,userName:!-Sbhaddm9hsarma90-!,emailId:!-sddhuamhkk90@gmail.com-!,profilePic:NA,aboutYourself:!-LoveCricket-!,password:test12345,confirmPassword:test12345}|Thank you for your registration|

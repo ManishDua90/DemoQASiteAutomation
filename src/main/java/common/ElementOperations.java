@@ -19,8 +19,10 @@ public class ElementOperations extends Initialize {
         elementProperties = Initialize.getElementProperties();
     }
     public void clickOnTheGivenElement(String name){
+
         waitForaGivenElement(elementProperties.getProperty(name));
         webDriver.findElement(By.cssSelector(elementProperties.getProperty(name))).click();
+        logger.info("Clicked " + webDriver.findElement(By.cssSelector(elementProperties.getProperty(name))).getText());
     }
 
     public void waitForaGivenElement(String name) {
@@ -30,6 +32,8 @@ public class ElementOperations extends Initialize {
     public void enterValueInanEdit(String name, String value){
         waitForaGivenElement(elementProperties.getProperty(name));
           webDriver.findElement(By.cssSelector(elementProperties.getProperty(name))).sendKeys(value);
+        logger.info("Value Entered in " + webDriver.findElement(By.cssSelector(elementProperties.getProperty(name))).getText());
+
     }
 
     public void clickOnMultipleElements(ArrayList<String> names)
@@ -37,6 +41,8 @@ public class ElementOperations extends Initialize {
         for(String name : names){
             waitForaGivenElement(elementProperties.getProperty(name));
             webDriver.findElement(By.cssSelector(elementProperties.getProperty(name))).click();
+            logger.info("Clicked " + webDriver.findElement(By.cssSelector(elementProperties.getProperty(name))).getText());
+
         }
     }
 
@@ -44,6 +50,8 @@ public class ElementOperations extends Initialize {
         waitForaGivenElement(elementProperties.getProperty(dropDownName));
        Select dropDown = new Select(webDriver.findElement(By.cssSelector(elementProperties.getProperty(dropDownName))));
        dropDown.selectByVisibleText(value);
+        logger.info("Selected " + value + " from " +webDriver.findElement(By.cssSelector(elementProperties.getProperty(dropDownName))).getText()+ " dropdown");
+
     }
 
     public void enterMultipleValues(Map<String,String> values)
@@ -57,7 +65,7 @@ public class ElementOperations extends Initialize {
         }
     }
 
-    public void enterMultipleDropDowwnValues(Map<String,String> values)
+    public void selectMultipleDropDowwnValues(Map<String,String> values)
     {
         Iterator iterator = values.entrySet().iterator();
         while (iterator.hasNext())
@@ -66,6 +74,7 @@ public class ElementOperations extends Initialize {
             waitForaGivenElement(elementProperties.getProperty(pair.getKey().toString()));
             Select dropDown = new Select(webDriver.findElement(By.cssSelector(elementProperties.getProperty(pair.getKey().toString()))));
             dropDown.selectByVisibleText(pair.getValue().toString());
+
         }
     }
 }

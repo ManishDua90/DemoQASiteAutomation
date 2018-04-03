@@ -4,6 +4,8 @@ package fixtures;
 import common.ElementOperations;
 import common.Initialize;
 import helperservices.FillRegistrationFormHelperService;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pageobjects.RegistrationFormPageObject;
@@ -15,6 +17,8 @@ public class
 OpenRegistrationForm extends Initialize {
    // private WebDriver webDriver;
     private Properties elementProperties;
+    final static Logger logger = Logger.getLogger(OpenRegistrationForm.class);
+
     ElementOperations elementOperations = new ElementOperations();
         public OpenRegistrationForm()
         {
@@ -23,11 +27,13 @@ OpenRegistrationForm extends Initialize {
         public void setOpenForm(String dummy){
             //webDriver.get(elementProperties.getProperty("demoQARegistrationURL").toString());
             RegistrationFormPageObject.registrationButton(webDriver).click();
+            logger.info("Opened Registration form");
         }
 
     public void setFillForm(Map<String,String> formData)
     {
         FillRegistrationFormHelperService.fillForm(formData);
+        logger.info("Filled Registration form");
     }
 
     public boolean isFormOpened() {

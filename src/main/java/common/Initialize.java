@@ -1,7 +1,6 @@
 package common;
 
-
-
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,6 +14,8 @@ public class Initialize {
     private static Properties elementProperties ;
     private static Properties webDriverProperties ;
     public static WebDriver webDriver;
+    final static Logger logger = Logger.getLogger(Initialize.class);
+
     public Initialize()
     {
         setupBrowserConfig();
@@ -28,6 +29,7 @@ public class Initialize {
     }
 
     private void loadElementProperties() {
+        logger.info("Started loading element properties");
         InputStream is = null;
         elementProperties = new Properties();
         try {
@@ -38,9 +40,13 @@ public class Initialize {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        logger.info("Loaded element properties");
+
     }
 
     private void setupBrowserConfig() {
+        logger.info("Started loading webdriver properties");
+
         InputStream is = null;
         webDriverProperties = new Properties();
         try {
@@ -52,6 +58,7 @@ public class Initialize {
             e.printStackTrace();
         }
         System.setProperty(webDriverProperties.get("driverSystemProperty").toString(), webDriverProperties.getProperty("driverpath").toString());
+        logger.info("Loaded webdriver properties");
 
 
     }
@@ -65,11 +72,17 @@ public class Initialize {
    public void setOpenDemoURL(String dummy)
     {
         if (webDriverProperties.get("driver").toString().equalsIgnoreCase("chrome")) {
+            logger.info("Found webdriver [" + webDriverProperties.get("driver") + "]. Launching chrome browser");
+
             webDriver = new ChromeDriver();
         }
         else if (webDriverProperties.get("driver").toString().equalsIgnoreCase("firefox")) {
+            logger.info("Found webdriver [" + webDriverProperties.get("driver") + "]. Launching firefox browser");
+
             webDriver = new FirefoxDriver();
         }
+        logger.info("Launching demoQA website");
+
         webDriver.get(elementProperties.get("demoQAURL").toString());
         maximizeWindow();
     }
