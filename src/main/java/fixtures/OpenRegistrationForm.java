@@ -2,11 +2,9 @@ package fixtures;
 
 
 import common.BaseFixture;
-import common.ElementOperations;
 import common.Initialize;
 import helperservices.FillRegistrationFormHelperService;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -15,7 +13,6 @@ import pageobjects.RegistrationFormPageObject;
 import java.util.Map;
 import java.util.Properties;
 
-import static common.BaseFixture.getElementProperties;
 
 public class OpenRegistrationForm extends BaseFixture {
     private Properties elementProperties;
