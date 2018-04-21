@@ -1,6 +1,7 @@
 package pageobjects;
 
 import com.sun.istack.internal.NotNull;
+import common.BaseFixture;
 import common.Initialize;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class RegistrationFormPageObject extends Initialize{
+public class RegistrationFormPageObject extends BaseFixture{
 
     private static WebElement element = null;
     private static List<WebElement> elements = null;

@@ -1,6 +1,7 @@
 package fixtures;
 
 
+import common.BaseFixture;
 import common.ElementOperations;
 import common.Initialize;
 import helperservices.FillRegistrationFormHelperService;
@@ -14,18 +15,17 @@ import pageobjects.RegistrationFormPageObject;
 import java.util.Map;
 import java.util.Properties;
 
-public class
-OpenRegistrationForm extends Initialize {
-   // private WebDriver webDriver;
+import static common.BaseFixture.getElementProperties;
+
+public class OpenRegistrationForm extends BaseFixture {
     private Properties elementProperties;
     final static Logger logger = Logger.getLogger(OpenRegistrationForm.class);
     private WebDriver webDriver;
 
-    ElementOperations elementOperations = new ElementOperations();
         public OpenRegistrationForm()
         {
             webDriver = Initialize.getWebDriver();
-            elementProperties = Initialize.getElementProperties();
+            elementProperties = getElementProperties();
         }
         public void setOpenForm(String dummy){
             //webDriver.get(elementProperties.getProperty("demoQARegistrationURL").toString());

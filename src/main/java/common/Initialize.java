@@ -10,64 +10,23 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class Initialize {
-    private static Properties elementProperties ;
-    private static Properties webDriverProperties ;
-    private static WebDriver webDriver;
-    final static Logger logger = Logger.getLogger(Initialize.class);
+import static common.BaseFixture.getElementProperties;
+import static common.BaseFixture.getWebDriverProperties;
+import static common.BaseFixture.maximizeWindow;
 
+public class Initialize extends BaseFixture{
+
+    final static Logger logger = Logger.getLogger(Initialize.class);
+    private static WebDriver webDriver;
+    private Properties webDriverProperties,elementProperties;
     public Initialize()
     {
-        setupBrowserConfig();
-        loadElementProperties();
+        webDriver = Initialize.getWebDriver();
+        webDriverProperties  = getWebDriverProperties();
+        elementProperties = getElementProperties();
         //webDriver.get(elementProperties.get("demoQAURL").toString());
-
     }
 
-    public static void maximizeWindow() {
-        webDriver.manage().window().maximize();
-    }
-
-    private void loadElementProperties() {
-        logger.info("Started loading element properties");
-        InputStream is = null;
-        elementProperties = new Properties();
-        try {
-            is = this.getClass().getResourceAsStream("/elementmapping.properties");
-            elementProperties.load(is);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        logger.info("Loaded element properties");
-
-    }
-
-    private void setupBrowserConfig() {
-        logger.info("Started loading webdriver properties");
-
-        InputStream is = null;
-        webDriverProperties = new Properties();
-        try {
-            is = this.getClass().getResourceAsStream("/webdriver.properties");
-            webDriverProperties.load(is);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        System.setProperty(webDriverProperties.get("driverSystemProperty").toString(), webDriverProperties.getProperty("driverpath").toString());
-        logger.info("Loaded webdriver properties");
-
-
-    }
-
-
-    public static WebDriver getWebDriver()
-    {
-        return webDriver;
-    }
 
    public void setOpenDemoURL(String dummy)
     {
@@ -84,9 +43,10 @@ public class Initialize {
         logger.info("Launching demoQA website");
 
         webDriver.get(elementProperties.get("demoQAURL").toString());
-        maximizeWindow();
+        maximizeWindow(webDriver);
     }
-    public static Properties getElementProperties() {
-        return elementProperties;
+    public static WebDriver getWebDriver()
+    {
+        return webDriver;
     }
 }

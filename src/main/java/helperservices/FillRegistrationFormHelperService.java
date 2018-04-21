@@ -1,5 +1,6 @@
 package helperservices;
 
+import common.BaseFixture;
 import common.Initialize;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +9,7 @@ import pageobjects.RegistrationFormPageObject;
 
 import java.util.Map;
 
-public class FillRegistrationFormHelperService extends Initialize{
+public class FillRegistrationFormHelperService extends BaseFixture{
     final static Logger logger = Logger.getLogger(FillRegistrationFormHelperService.class);
     private WebDriver webDriver;
     public FillRegistrationFormHelperService()

@@ -10,7 +10,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
 
-public class ElementOperations extends Initialize {
+import static common.BaseFixture.getElementProperties;
+
+public class ElementOperations extends BaseFixture {
 
     private WebDriver webDriver;
     private Properties elementProperties;
@@ -18,7 +20,7 @@ public class ElementOperations extends Initialize {
     public ElementOperations() {
         webDriver = Initialize.getWebDriver();
         wait = new WebDriverWait(webDriver, 10);
-        elementProperties = Initialize.getElementProperties();
+        elementProperties = getElementProperties();
 
     }
     public void clickOnTheGivenElement(String name){
