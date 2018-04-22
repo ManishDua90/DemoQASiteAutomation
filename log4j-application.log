@@ -896,3 +896,139 @@
 2018-04-22 01:17:25 INFO  Initialize:43 - Launching demoQA website
 2018-04-22 01:17:34 INFO  ResizeItem:30 - Opened Resizable page
 2018-04-22 01:17:37 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 01:28:09 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:28:09 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:28:09 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:28:09 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:28:09 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 01:28:12 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 01:28:20 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:28:20 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:28:20 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:28:20 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:28:21 INFO  OpenRegistrationForm:30 - Opened Registration form
+2018-04-22 01:28:22 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:28:22 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:28:22 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:28:22 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:28:22 INFO  OpenRegistrationForm:30 - Opened Registration form
+2018-04-22 01:28:22 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:28:22 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:28:22 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:28:22 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:28:22 INFO  FillRegistrationFormHelperService:20 - Filling Registration form
+2018-04-22 01:28:25 INFO  OpenRegistrationForm:36 - Filled Registration form
+2018-04-22 01:28:25 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:28:25 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:28:25 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:28:25 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:28:26 INFO  DragAndDropItem:28 - Opened Draggable page
+2018-04-22 01:28:28 INFO  ResizeItem:30 - Opened Resizable page
+2018-04-22 01:28:31 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 01:29:40 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:29:40 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:29:40 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:29:40 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:29:40 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 01:29:43 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 01:29:53 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:29:53 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:29:53 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:29:53 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:29:54 INFO  OpenRegistrationForm:30 - Opened Registration form
+2018-04-22 01:29:54 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:29:54 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:29:54 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:29:54 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:29:55 INFO  OpenRegistrationForm:30 - Opened Registration form
+2018-04-22 01:29:55 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:29:55 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:29:55 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:29:55 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:29:55 INFO  FillRegistrationFormHelperService:20 - Filling Registration form
+2018-04-22 01:29:59 INFO  OpenRegistrationForm:36 - Filled Registration form
+2018-04-22 01:29:59 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:29:59 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:29:59 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:29:59 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:30:00 INFO  DragAndDropItem:28 - Opened Draggable page
+2018-04-22 01:30:05 INFO  ResizeItem:30 - Opened Resizable page
+2018-04-22 01:30:08 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 01:30:41 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:30:41 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:30:41 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:30:41 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:30:41 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 01:30:44 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 01:30:54 INFO  ResizeItem:30 - Opened Resizable page
+2018-04-22 01:30:59 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 01:31:39 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 01:31:39 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 01:31:39 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 01:31:39 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 01:31:40 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 01:31:43 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 01:31:52 INFO  ResizeItem:30 - Opened Resizable page
+2018-04-22 01:31:58 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 02:01:32 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:01:32 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:01:32 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:01:32 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:01:32 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 02:01:36 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 02:01:46 INFO  SelectItem:31 - Opened Selectable page
+2018-04-22 02:01:49 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 02:04:08 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:04:08 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:04:08 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:04:08 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:04:08 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 02:04:11 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 02:04:20 INFO  SelectItem:31 - Opened Selectable page
+2018-04-22 02:04:24 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 02:08:40 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:08:40 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:08:40 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:08:40 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:08:40 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 02:08:44 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 02:08:55 INFO  SelectItem:31 - Opened Selectable page
+2018-04-22 02:08:59 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 02:09:19 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:09:19 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:09:19 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:09:19 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:09:19 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 02:09:23 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 02:09:32 INFO  SelectItem:31 - Opened Selectable page
+2018-04-22 02:09:36 INFO  QuitDriver:13 - Quitting webdriver
+2018-04-22 02:25:23 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:25:23 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:25:23 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:25:23 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:25:23 INFO  Initialize:34 - Found webdriver [chrome]. Launching chrome browser
+2018-04-22 02:25:26 INFO  Initialize:43 - Launching demoQA website
+2018-04-22 02:25:33 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:25:33 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:25:33 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:25:33 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:25:35 INFO  OpenRegistrationForm:30 - Opened Registration form
+2018-04-22 02:25:35 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:25:35 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:25:35 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:25:35 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:25:35 INFO  OpenRegistrationForm:30 - Opened Registration form
+2018-04-22 02:25:35 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:25:35 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:25:35 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:25:35 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:25:35 INFO  FillRegistrationFormHelperService:20 - Filling Registration form
+2018-04-22 02:25:38 INFO  OpenRegistrationForm:36 - Filled Registration form
+2018-04-22 02:25:39 INFO  BaseFixture:38 - Started loading webdriver properties
+2018-04-22 02:25:39 INFO  BaseFixture:51 - Loaded webdriver properties
+2018-04-22 02:25:39 INFO  BaseFixture:22 - Started loading element properties
+2018-04-22 02:25:39 INFO  BaseFixture:33 - Loaded element properties
+2018-04-22 02:25:40 INFO  DragAndDropItem:28 - Opened Draggable page
+2018-04-22 02:25:41 INFO  ResizeItem:30 - Opened Resizable page
+2018-04-22 02:25:43 INFO  SelectItem:31 - Opened Selectable page
+2018-04-22 02:25:46 INFO  QuitDriver:13 - Quitting webdriver
